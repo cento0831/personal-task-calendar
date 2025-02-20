@@ -1,0 +1,107 @@
+/* styles.css */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #e0e0e0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.container {
+    background-color: #2e3b2f;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    max-width: 90%;
+}
+
+h1 {
+    text-align: center;
+    color: #a4d4a5;
+    margin-bottom: 20px;
+}
+
+#calendar {
+    margin-bottom: 20px;
+    border: 2px solid #a4d4a5;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.fc-daygrid-day {
+    cursor: pointer;
+}
+
+.fc-daygrid-day:hover {
+    background-color: #46634b;
+    color: #fff;
+}
+
+input[type="text"], input[type="datetime-local"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #44475a;
+    border-radius: 6px;
+    background-color: #3b4f3b;
+    color: #f8f8f2;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #a4d4a5;
+    color: #2e3b2f;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8bbd8b;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #444f44;
+    border-bottom: 1px solid #627a64;
+    border-radius: 6px;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.editBtn {
+    background-color: #8be9fd;
+    color: #2e3b2f;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.editBtn:hover {
+    background-color: #7ad2e6;
+}
