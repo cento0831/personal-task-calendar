@@ -17,7 +17,7 @@ Responsive Layout: The app is designed to be responsive, fitting seamlessly on v
 
 Technical Details:
 
-Frontend: The app is built using HTML for structure and CSS for styling. The minimalist design is achieved through thoughtful use of colors, fonts, and smooth animations.
+Frontend: The app is built using HTML for structure and CSS for styling. 
 
 Calendar: The interactive calendar is powered by the FullCalendar library, allowing for dynamic task display and navigation.
 
